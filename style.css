@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Martel:wght@600&family=Sintony&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgba(189, 254, 212, 0.416);
+    font-family: 'Martel', serif ;
+}
+
+header{
+    text-align: center;
+    margin: 0.1rem;
+    border: 0.1rem solid rgba(128, 169, 142, 0.416);
+}
+
+ul{
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Kontaktinfo{
+    text-align: center;
+    margin: 0.1rem;
+    border: 0.1rem solid rgba(128, 169, 142, 0.416);
+}
+
+img{
+    border-radius: 50%;
+}
+
+section{
+    border: 0.1rem solid rgba(128, 169, 142, 0.416);
+    margin: 0.1rem;
+}
+
+.bar{
+    width: 99%;
+    height: 0.7rem;
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+
+.css{
+    background-color: rgb(55, 116, 202);
+    height: 0.6rem;
+    width: 50%;
+}
+
+.html{
+    background-color: rgb(255, 132, 0);
+    height: 0.6rem;
+    width: 55%;
+}
+
+.Illustrator{
+    background-color: rgb(175, 48, 16);
+    height: 0.6rem;
+    width: 40%;
+}
+
+.Photoshop{
+    background-color: rgb(0, 255, 76);
+    height: 0.6rem;
+    width: 15%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(128, 169, 142, 0.416);
+    border: 0.1rem solid rgba(128, 169, 142, 0.416);
+}
